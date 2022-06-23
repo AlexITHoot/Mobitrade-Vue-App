@@ -37,7 +37,10 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+    beforeCreate(){
+        console.log('asdasdad');
+    },
 }
 </script>
 
