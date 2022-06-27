@@ -1,5 +1,7 @@
 <template>
-  <button>Click</button>
+  <button>
+    <slot></slot> 
+  </button>
 </template>
 
 <script>
@@ -8,6 +10,22 @@
   }
 </script>
 
-<style>
+<style lang="scss">
+.btn{
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+  border-radius: 5px;
+  &.primary-btn{
+    background-color: #f9a519;
+    color:#fff;
+    font-size: 16px;
+    transition:300ms;
+    &:hover{
+        background: lighten(#f9a519, 10%);
+        color: #fff;
+    } 
+  }    
+}
 
 </style>

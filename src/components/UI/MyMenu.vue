@@ -7,15 +7,7 @@
     <li><router-link to="/">Аксесуари</router-link></li>       
     <li><router-link to="/">Ремонт</router-link></li>           
     <li><router-link to="/about">Trade IN</router-link></li>
-    <li><router-link to="/contacts">Контакти</router-link> </li>
-    <!-- <li><a href="#">iPhone</a></li>
-    <li><a href="#">iPad</a></li>
-    <li><a href="#">iMac</a></li>
-    <li><a href="#">Apple Watch</a></li>
-    <li><a href="#">Аксесуари</a></li>
-    <li><a href="#">Ремонт</a></li>
-    <li><a href="#">Trade IN</a></li>
-    <li><a href="#">Контакти</a></li> -->
+    <li><router-link to="/contacts">Контакти</router-link></li>
   </ul>  
 </template>
 
