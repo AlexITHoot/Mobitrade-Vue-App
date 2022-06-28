@@ -59,6 +59,34 @@
     <!-- Hot offer -->
     <section class="hot-offer">
         <div class="container">
+            <tabs-wrapper class="mt-5">
+                <tab-item title="Новинки">
+                    <div class="wrapper magic-slider">
+                        <div class="wrapper-col">
+                            <div class="wrap-product-item">
+                            <product-card></product-card>
+                            </div>                                 
+                        </div>
+                        <div class="wrapper-col">
+                            <div class="wrap-product-item">
+                            <product-card></product-card>
+                            </div>                                 
+                        </div>
+                        <div class="wrapper-col">
+                            <div class="wrap-product-item">
+                                <product-card></product-card>
+                            </div>                                 
+                        </div>
+                        <div class="wrapper-col">
+                            <div class="wrap-product-item">
+                                <product-card></product-card>
+                            </div>                                 
+                        </div>                                                        
+                    </div>
+                </tab-item>
+                <tab-item title="Популярні товари">Tab 2</tab-item>     
+                <tab-item title="Знижки">Tab 3</tab-item>        
+                </tabs-wrapper>   
             <div class="sentences">
                 <ul class="sentences-nav nav" role="tablist">
                     <li class="sentences-nav__item">
@@ -73,28 +101,7 @@
                 </ul>
                 <div class="sentences-content tab-content">
                     <div class="sentences-content__tab tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new">
-                        <div class="wrapper magic-slider">
-                            <div class="wrapper-col">
-                                <div class="wrap-product-item">
-                                  <product-card></product-card>
-                                </div>                                 
-                            </div>
-                            <div class="wrapper-col">
-                                <div class="wrap-product-item">
-                                  <product-card></product-card>
-                                </div>                                 
-                            </div>
-                            <div class="wrapper-col">
-                                <div class="wrap-product-item">
-                                    <product-card></product-card>
-                                </div>                                 
-                            </div>
-                            <div class="wrapper-col">
-                                <div class="wrap-product-item">
-                                    <product-card></product-card>
-                                </div>                                 
-                            </div>                                                        
-                        </div>
+
                     </div>
                     <div class="sentences-content__tab tab-pane fade" id="popular" role="tabpanel" aria-labelledby="popular">
                         <div class="wrapper magic-slider">
@@ -648,12 +655,7 @@
                 </div>                                 
             </div>
         </div>
-    </section> 
-    <tabs-wrapper class="mt-5">
-      <tab-item title="Новинки">Tab 1</tab-item>
-      <tab-item title="Популярні товари">Tab 2</tab-item>     
-      <tab-item title="Знижки">Tab 3</tab-item>        
-    </tabs-wrapper>           
+    </section>         
   </div>
 </template>
 

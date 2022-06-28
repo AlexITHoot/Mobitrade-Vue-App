@@ -1,5 +1,5 @@
 <template>
-  <div class="tabs">
+  <div class="sentences tabs">
     <ul class="sentences-nav nav">
       <li v-for="title in tabTitles" :key="title" @click="selectedTitle=title" class="sentences-nav__item">{{title}}</li>
     </ul>
